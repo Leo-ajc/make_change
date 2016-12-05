@@ -41,8 +41,8 @@ module CountCoins
   end
 
   #require 'benchmark'
+  #include CountCoins
 
-  #Benchmark.bm(8) do |x|
   #Benchmark.bm do |x|
   #  x.report("Recurse") { make_change_recurse( 100_00, [1,5,10,25]) }
   #  x.report("Iterate") { make_change_iterate( 100_00, [1,5,10,25]) }
